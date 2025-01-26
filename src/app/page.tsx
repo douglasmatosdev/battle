@@ -287,18 +287,20 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
-  border-radius: 8px;
+  padding: 0.5em;
+  border-radius: 2px;
   background: #fff;
 
   
-  width: 200px;
-  height: 250px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  max-height: 200px;
   
   p {
     color: #333;
-    font-size: 24px;
-    margin: 16px 0;
+    font-size: 1em;
+    margin: 0.5em 0;
     border: 1px solid #333;
     width: 100%;
     text-align: center;
@@ -310,7 +312,6 @@ const Card = styled.div`
 
   &.in-cemitery {
     padding: 4px;
-    border-radius: 2px;
     width: 50px;
     height: 100px;
 
